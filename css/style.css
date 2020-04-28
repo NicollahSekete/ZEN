@@ -58,3 +58,19 @@ external css - use this way, what you're doing right now. */
     padding: 50 px 25px 30px; /*top, right & left, bottom*/
     padding: 10px 15px 16px 17px; /*top right bottom left*/
 }
+.threeColumns{
+    float: left;
+    width: 33.33%;
+    padding: 0px;
+}
+
+.columns:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width: 800px){
+    .threeColumns{
+        width: 100%;
+    }
+}
