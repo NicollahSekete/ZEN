@@ -1,0 +1,60 @@
+/*{
+    color: red;
+}
+
+/*
+in line css - do not use, styling a particular line
+internal css - */
+/*<style>
+       p{
+           color: red;
+       }
+       h1 {
+           font-size: 120vw;
+       }
+   </style> */
+   /*inside the file you're styling but inside a style tag inside the head tag...have to copy and page over multiple pages
+external css - use this way, what you're doing right now. */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    /*
+    key-value pair
+    margin is the key
+    0 is the value
+    */
+}
+.navbar {
+    background-color: crimson;
+    align-items: left;
+    display: flex; /* we will be covering flex later*/
+    justify-content: space-evenly;
+    padding: 30px 20px; /*o 30px and the left and right as 20px*/
+
+}
+.navbar ul li { /*this is targeting the .navbar class with ul li to be modified*/
+    list-style-type: none;
+    display: inline-block;
+}
+.navbar li a {
+    text-decoration: none;
+    padding: 15px 5px;
+}
+.mainContent h1{
+    text-align: center;
+    font-size: 100px;
+}
+
+.aboutContent ul li{
+    color: blue;
+    list-style-type: square;
+}
+.box {
+    box-sizing: border-box;
+    padding: 25px 50px;
+    padding: 50px; /*the second padding will override and it'll have even 50px padding araound*/
+    padding: 50 px 25px 30px; /*top, right & left, bottom*/
+    padding: 10px 15px 16px 17px; /*top right bottom left*/
+}
