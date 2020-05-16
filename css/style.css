@@ -37,13 +37,11 @@
 [id= "slideShowPage"]{
     margin: 0;
     padding: 0;
-    background-color: thistle;
+    background-color: white;
 }
 
-body{
-  margin: 10px;
-  padding: 100px;
-  background: #34495e;
+.box{
+  background-color:thistle;
 }
 .slidershow{
   width: 700px;
@@ -66,7 +64,7 @@ body{
 .bar{
   width: 50px;
   height: 10px;
-  border: 2px solid #fff;
+  border: 2px solid thistle;
   margin: 6px;
   cursor: pointer;
   transition: 0.4s;
