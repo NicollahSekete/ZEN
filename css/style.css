@@ -1,3 +1,9 @@
+/*footer*/
+.footer{
+    position: absolute;
+    margin-top: 5em;
+    background-color: beige;
+}
 
 
 
@@ -44,8 +50,8 @@
   background-color:thistle;
 }
 .slidershow{
-  width: 700px;
-  height: 400px;
+  width: 100%;
+  height: 500px;
   overflow: hidden;
 }
 .middle{
@@ -64,9 +70,9 @@
 .bar{
   width: 50px;
   height: 10px;
-  border: 2px solid thistle;
+  border: 5px solid rgb(172, 54, 172);
   margin: 6px;
-  cursor: pointer;
+  cursor: zoom-in;
   transition: 0.4s;
 }
 .bar:hover{
@@ -116,9 +122,3 @@ input[name="r"]{
 
 
 
-
-/*footer*/
-.footer{
-    margin-top: 5em;
-    background-color: beige;
-}
